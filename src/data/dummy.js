@@ -417,14 +417,14 @@ export const customersGrid = [
   { type: "checkbox", width: "50" },
   {
     headerText: "Name",
-    width: "150",
+    width: "190",
     template: customerGridImage,
     textAlign: "Center",
   },
   {
     field: "ProjectName",
     headerText: "Project Name",
-    width: "150",
+    width: "170",
     textAlign: "Center",
   },
   {
@@ -438,7 +438,7 @@ export const customersGrid = [
   {
     field: "Weeks",
     headerText: "Weeks",
-    width: "100",
+    width: "80",
     format: "C2",
     textAlign: "Center",
   },
@@ -460,7 +460,7 @@ export const customersGrid = [
   {
     field: "CustomerID",
     headerText: "Customer ID",
-    width: "120",
+    width: "80",
     textAlign: "Center",
     isPrimaryKey: true,
   },
